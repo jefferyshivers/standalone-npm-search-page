@@ -1,0 +1,34 @@
+
+.resultTile {
+  padding: 16px 0;
+  border-bottom: 1px solid gray;
+}
+
+.name {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.name:hover {
+  color: var(--accent-primary);
+}
+
+.description {
+  padding-top: 8px;
+  color: var(--color-secondary);
+}
+
+.metadata {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 8px;
+  padding-top: 12px;
+  color: var(--color-dim);
+}
+
+.publisherName {
+  font-weight: bold;
+  color: var(--color-secondary);
+  text-decoration: none;
+}

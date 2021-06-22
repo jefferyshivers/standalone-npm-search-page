@@ -1,0 +1,40 @@
+
+.results {
+  display: flex;
+  justify-content: center;
+  background: var(--bg-foreground);
+  padding: 0 0 16px;
+  flex-wrap: wrap;
+}
+
+.descriptionContainer {
+  width: 100%;
+  background: var(--bg-background);
+  display: flex;
+  justify-content: center;
+  padding: 8px 16px;
+}
+
+.description {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  color: var(--color-secondary);
+}
+
+.resultsInnerContainer {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 16px;
+}
+
+.skeletons {
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: var(--bg-foreground);
+}
